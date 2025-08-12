@@ -1,15 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Reset básico para remover margens e paddings */
 *{
-    margin: 0;
-    padding: 0;
+    /* todos elementos */
+    margin: 0px; /*Remover margens externas*/
+    padding: 0px; /*Remover margens e paddings interna*/
     box-sizing: border-box; /*Para que o padding e margin sejam calculados corretamente*/
+    font-family: "Inter"; /*Fonte Inter do Google Fonts*/
 }
+
 /* Estilo para a página de login do ChatGPT */
 .main-login {
     display: flex; /*Flexbox para alinhar os itens*/
 }
+
 /* imagem do robo */
 .robo-image {
-    background-color: aqua;
+    background-image: url(../assets/imgs/robo-login.png);
+    background-size: cover; /*Cobre todo o espaço disponível*/
     width: 50vw; /*50 % do tamanho horizontal do monitor*/
     height: 100vh; /*50% do tamanho vertical do monitor*/
 }
@@ -20,7 +28,7 @@
 }
 
 .login {
-    background-color: burlywood;
+   
     width: 50vw; /*50 % do tamanho horizontal do monitor*/
     height: 100vh; /*50% do tamanho vertical do monitor*/
     display: flex; /*Flexbox para alinhar os itens*/
@@ -28,3 +36,20 @@
     align-items: center; /*Alinha os itens no centro horizontalmente*/
     justify-content: center; /*Alinha os itens no centro verticalmente*/
 }
+
+#id {
+    /* Com hashtag antes */
+}
+
+img{
+    /* Com tag sem prefixo */
+}
+
+.login {
+    /* Com ponto antes */
+}
+
+.logo-gpt {
+    height: 60px;
+}
+
