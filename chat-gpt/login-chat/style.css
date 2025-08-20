@@ -9,7 +9,7 @@ body {
   background-color: #fff;
   color: #333;
 }
-.sidebar {
+.chat-container {
   width: 250px;
   background: #f7f7f8;
   border-right: 1px solid #ddd;
@@ -18,7 +18,7 @@ body {
   justify-content: space-between;
   padding: 1rem;
 }
-.sidebar button {
+.chat-container button {
   width: 100%;
   padding: 10px;
   background: #000;
@@ -29,17 +29,19 @@ body {
   cursor: pointer;
   margin-bottom: 1rem;
 }
-.sidebar ul {
+.chat-container ul {
   list-style: none;
 }
-.sidebar ul li {
+.chat-container ul li {
   margin: 10px 0;
   font-size: 14px;
   color: #444;
 }
-.sidebar-footer {
+.footer {
   border-top: 1px solid #ddd;
   padding-top: 1rem;
+  background-color: #333;
+  
 }
 
 
