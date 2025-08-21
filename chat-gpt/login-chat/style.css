@@ -98,6 +98,7 @@ main {
   border-radius: 10px;
   padding: 10px;
   background-color: #f7f9fb;
+  cursor: pointer;
 }
 .examples h2 {
   margin-bottom: 20px;
@@ -106,6 +107,7 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
+  cursor: pointer;
 }
 .copabilities {
   display: flex;
@@ -117,6 +119,7 @@ main {
   border-radius: 10px;
   padding: 10px;
   background-color: #f7f9fb;
+  cursor: pointer;
 }
 .copabilities h2 {
   margin-bottom: 20px;
@@ -125,13 +128,13 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
+  cursor: pointer;
 }
 
 .limitations {
   display: flex;
   flex-direction: column;
-  gap: 10px; 
-   
+  gap: 10px;
 }
 
 .limitations h2 {
@@ -141,12 +144,37 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
+  cursor: pointer;
 }
 
 .limitations p {
   border-radius: 10px;
   padding: 10px;
+  cursor: pointer;
   background-color: #f7f9fb;
+}
+.input-bar {
+  width: 100%;
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+  align-items: flex-end;
+}
+
+.input-bar input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.input-bar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
 }
 
 
