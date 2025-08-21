@@ -10,7 +10,7 @@ body {
   color: #333;
 }
 .chat-container {
-  width: 250px;
+  width: 20%;
   background: #f7f7f8;
   border-right: 1px solid #ddd;
   display: flex;
@@ -29,19 +29,124 @@ body {
   cursor: pointer;
   margin-bottom: 1rem;
 }
-.chat-container ul {
+.chat-container a {
   list-style: none;
 }
-.chat-container ul li {
+.chat-container a {
   margin: 10px 0;
   font-size: 14px;
   color: #444;
 }
+.chat-container a:hover {
+  color: #000;
+  justify-content: center;
+}
+.new-chat {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.footer a {
+  margin: 10px 0;
+  font-size: 14px;
+}
+.footer a:hover {
+  color: #000;
+  justify-content: center;
+}
 .footer {
   border-top: 1px solid #ddd;
   padding-top: 1rem;
-  background-color: #333;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+  padding-left:119px ;
+  padding-right: 119px;
+  flex-direction: column;
+}
+.foto-chat {
+  width: 446px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.chat-box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  gap: 10px;
+  padding: 20px;
+}
+
+.examples {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
   
+}
+.examples p {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #f7f9fb;
+}
+.examples h2 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #000;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.copabilities {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+  
+}
+.copabilities p {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #f7f9fb;
+}
+.copabilities h2 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #000;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.limitations {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+   
+}
+
+.limitations h2 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #000;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.limitations p {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #f7f9fb;
 }
 
 
