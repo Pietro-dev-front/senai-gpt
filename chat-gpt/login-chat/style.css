@@ -46,6 +46,16 @@ body {
   display: flex;
   flex-direction: column;
 }
+.btn-chat {
+  width: 100%;
+  background-color: transparent;
+  padding: 10px;
+  color: #fff;
+  border: none;
+  margin-bottom: 10px;
+  text-align: left;
+ 
+}
 .footer a {
   margin: 10px 0;
   font-size: 14px;
@@ -159,7 +169,7 @@ main {
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 10px;
-  margin-bottom: 20px;
+  margin-top: 100px;
   align-items: flex-end;
 }
 
@@ -176,6 +186,21 @@ main {
   cursor: pointer;
   font-size: 18px;
 }
+.input-bar i {
+  color: #000;
+  font-size: 12px;
+  margin-right: 10px;
+}
 
+.new-chat i {
+  font-size: 12px;
+  color: #000;
+  margin-right: 10px;
+}
 
+.footer i {
+  font-size: 12px;
+  color: #000;
+  margin-right: 10px;
+}
 
